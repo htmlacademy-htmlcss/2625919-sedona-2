@@ -2,7 +2,7 @@
 
 * Студент: [Андрей Кадыров](https://up.htmlacademy.ru/htmlcss-individual/2/user/2625919).
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957).
-
+* Сайт: [Мой проект Sedona](https://ankad1985.github.io/2625919-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
