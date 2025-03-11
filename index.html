@@ -8,12 +8,14 @@
 
   <body>
     <header class="page-header" data-test="header">
-      <a class="header-logo"><img src="images/logo.svg" alt="Логотип Седона" width="140" height="70" class="logo"></a>
-      <nav class="header-navigation">
+      <nav class="navigation">
+        <a class="navigation-logo" href="#">
+          <img class="page-header-logo" src="images/index/logo.svg" alt="Логотип города Седона" width="140" height="70">
+        </a>
         <!-- Блок "Главная, О Седоне, Гостиницы"  -->
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="#" aria-current="page">Главная</a>
+            <a class="navigation-link navigation-link-current" href="#" aria-current="page">Главная</a>
           </li>
           <li class="menu-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -25,26 +27,31 @@
         <!-- Блок "Поиск, Избранное, Хочу сюда!"  -->
         <ul>
           <li class="navigation-user">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+            <a class="navigation-user-link navigation-user-link-seach" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><span
-                class="favorite-count">12</span></a>
+          <li class="navigation-user-item">
+            <a class="navigation-user-link navigation-user-link-favorite" href="#">
+              <span class="visually-hidden">Избранное</span>
+              <span class="favorite-count">12</span>
+            </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+          <li class="navigation-user-item">
+            <a class="navigation-user-link" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main-page" data-test="main">
+    <main class="main-index" data-test="main">
       <!-- СЕКЦИЯ "HERO" -->
       <section class="hero" data-test="hero">
         <h1 class="visually-hidden">Седона - город в Аризоне</h1>
-        <img class="index-background" src="images/index-background.png" alt="Добро пожаловать в Седону!">
-        <h2 class="hero-slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
-        <h3 class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h3>
+        <img class="hero-img" src="images/index/welcome.svg" width="458" height="352"
+         alt="Welcome to the gorgeus Sedona because the Grand Canyon sucks!">
+        <p class="hero-slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <!-- СЕКЦИЯ "ПРЕИМУЩЕСТВА" -->
       <section class="advantages" data-test="advantages">
@@ -54,7 +61,7 @@
           <li class="advantages-item">
             <h3 class="advantages-item-title">Настоящий городок</h3>
             <p class="advantages-item-text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="images/photo-1.png" alt="Дом с садом">
+            <img src="images/index/home-with-flags.jpg" width="800" height="385" alt="Дом с садом">
           </li>
           <!-- Блок "Небольшая площадь" -->
           <li class="advantages-item">
@@ -73,7 +80,7 @@
           </li>
           <!-- Блок "Там есть мост дьявола" -->
           <li class="advantages-item">
-            <img src="images/photo-2.png" alt="Мост дьявола">
+            <img src="images/index/devil's-bridge.jpg" width="800" height="385" alt="Мост дьявола">
             <h3 class="advantages-item-title">Там есть мост дьявола</h3>
             <p class="advantages-item-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -129,13 +136,19 @@
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#"><span class="visually-hidden">ВКонтакте</span></a>
+            <a class="footer-social-link" href="#">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#"><span class="visually-hidden">Телеграмм</span></a>
+            <a class="footer-social-link" href="#">
+              <span class="visually-hidden">Телеграмм</span>
+            </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="#"><span class="visually-hidden">Ютуб</span></a>
+            <a class="footer-social-link" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
           </li>
         </ul>
         <!-- СЕКЦИЯ "КОНТАКТЫ" -->
@@ -149,8 +162,9 @@
       <!-- СЕКЦИЯ "HTML ACADEMY" -->
       <section class="footer-logo-htmlacademy">
         <h2 class="visually-hidden">Ссылка на сайт HTML Академии</h2>
-        <a class="footer-lofo-htmlacademy-link" href="http://htmlacademy.ru"><img class="footer-logo-htmlacademy-img"
-            src="images/HTMLAcademy.svg" alt="Логотип HTML Академии"></a>
+        <a class="footer-lofo-htmlacademy-link" href="http://htmlacademy.ru">
+          <span class="visually-hidden">Логотип HTML Академии</span>
+        </a>
       </section>
     </footer>
 
