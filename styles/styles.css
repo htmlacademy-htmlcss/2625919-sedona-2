@@ -1,0 +1,442 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+/*-- Блок "Главная, О Седоне, Гостиницы"  --*/
+.navigation-link {
+font-weight: 700;
+line-height: 24px;
+font-size: 20px;
+text-decoration: none;
+color: #000000;
+}
+
+/*-- Блок "Поиск, Избранное, Хочу сюда!"  --*/
+.navigation-user-link {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.favorite-count {
+  font-size: 10px;
+  line-height: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7db54f;
+  border-radius: 50%;
+}
+
+.navigation-user-link-want-here {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #756157;
+  color: #ffffff;
+}
+
+.main-index {
+  background-color: #ffffff;
+}
+
+/*-- СЕКЦИЯ "HERO" --*/
+.hero {
+  background-color: #ffffff;
+  background-image: url("../images/divider.svg"), url("../images//index/index-background.jpg");
+  background-size: 100% auto, cover;
+  background-repeat: no-repeat;
+  background-position: left bottom, left top;
+}
+/*-- СЕКЦИЯ "ПРЕИМУЩЕСТВА" --*/
+.advantages {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.advantages-description {
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+text-decoration: none;
+}
+
+.advantages-item {
+  background: #82b3d3;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.advantages-item-light {
+  background: rgba(131, 179 ,211, 0.12);
+}
+
+.advantages-item-medium {
+  background: rgba(131, 179, 211, 0.2);;
+}
+
+.advantages-item-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.advantages-item-title-light{
+  color: #ffffff;
+}
+
+.advantages-item-text {
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.advantages-item-text-light {
+  color: #ffffff;
+}
+
+.slogan-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.slogan-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.advices-item {
+  background: rgba(131, 179 ,211, 0.2);
+}
+
+.advices-item-light {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advices-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advices-item-text {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.intrested-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.interested-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.interested-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #756157;
+  color: #ffffff;
+}
+/* -- СЕКЦИЯ "ПОДПИШИСЬ НА РАССЫЛКУ" -- */
+.subscribe-background {
+  background-color: #3f5e72;
+  text-align: center;
+  background-image: url("../images/index/subscribe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.subscribe-email{
+font-family: inherit;
+font-size: inherit;
+line-height: 24xp;
+font-weight: 400;
+background-color: #f2f2f2;
+}
+
+.subscribe-button {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+/* footer */
+.page-footer {
+  background-color: #ffffff;
+}
+
+.footer-social-link {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+.footer-social-link-vkontakte {
+  background-image: url("../images/footer/vkontakte.svg");
+}
+
+.footer-social-link-telegramm {
+  background-image: url("../images/footer/telegramm.svg");
+}
+
+.footer-social-link-youtube {
+  background-image: url("../images/footer/youtube.svg");
+}
+/* <!-- СЕКЦИЯ "КОНТАКТЫ" --> */
+.phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.footer-lofo-htmlacademy-link {
+  background-image: url("../images/footer/html-academy.svg");
+  background-repeat: no-repeat;
+}
+
+/* catalog */
+.main-inner{
+  background-color: #ffffff;
+}
+
+/* -- СЕКЦИЯ "ФИЛЬТР ГОСТИНИЦ" -- */
+.catalog-filter {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("../images/catalog/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+}
+.main-inner-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.breadcrumbs-item-link {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.catalog-filter-group {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.catalog-filter-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.range-slider-input {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+
+.button-apply {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.button-reset {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* -- СЕКЦИЯ "КАТАЛОГ" -- */
+.catalog {
+  font-size: 18px;
+  color: #333333;
+}
+.catalog-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-class-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.catalog-select {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.catalog-view-item {
+  color: #000000;
+}
+
+.catalog-button-more-detailed {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #756157;
+  color: #ffffff;
+}
+
+.catalog-button-favourites {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.catalog-button-favourites-checked {
+  background-color: #7db54f;
+}
+
+.catalog-item-rating {
+  background-color: #f2f2f2;
+}
+
+/* -- Блок "Пагинация" -- */
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.pagination-link-current{
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.pagination-link-more{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.subscribe-title-catalog {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.subscribe-text-catalog {
+  color: #333333;
+  background-color: #ffffff;
+}
